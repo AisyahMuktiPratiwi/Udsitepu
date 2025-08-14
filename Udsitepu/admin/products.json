@@ -1,0 +1,121 @@
+[
+    {
+        "id": "P001",
+        "name": "NPK 16-16",
+        "price": 50000,
+        "stock": 25,
+        "image": ""
+    },
+    {
+        "id": "P002",
+        "name": "Saprodaf",
+        "price": 48000,
+        "stock": 30,
+        "image": ""
+    },
+    {
+        "id": "P003",
+        "name": "Knock",
+        "price": 47000,
+        "stock": 20,
+        "image": ""
+    },
+    {
+        "id": "P004",
+        "name": "Novatec",
+        "price": 60000,
+        "stock": 15,
+        "image": ""
+    },
+    {
+        "id": "P005",
+        "name": "Nitrophoska",
+        "price": 65000,
+        "stock": 18,
+        "image": ""
+    },
+    {
+        "id": "P006",
+        "name": "Yara Liva Tropicote",
+        "price": 70000,
+        "stock": 10,
+        "image": ""
+    },
+    {
+        "id": "P007",
+        "name": "Meroke SOP",
+        "price": 72000,
+        "stock": 12,
+        "image": ""
+    },
+    {
+        "id": "P008",
+        "name": "Kamas",
+        "price": 55000,
+        "stock": 22,
+        "image": ""
+    },
+    {
+        "id": "P009",
+        "name": "NPK Magnum",
+        "price": 58000,
+        "stock": 16,
+        "image": ""
+    },
+    {
+        "id": "P010",
+        "name": "Vigo Amino",
+        "price": 62000,
+        "stock": 9,
+        "image": ""
+    },
+    {
+        "id": "P011",
+        "name": "TSP Mahkota",
+        "price": 50000,
+        "stock": 20,
+        "image": ""
+    },
+    {
+        "id": "P012",
+        "name": "Laoying",
+        "price": 53000,
+        "stock": 17,
+        "image": ""
+    },
+    {
+        "id": "P013",
+        "name": "Kompos",
+        "price": 30000,
+        "stock": 40,
+        "image": ""
+    },
+    {
+        "id": "P014",
+        "name": "Pupuk Kandang",
+        "price": 25000,
+        "stock": 35,
+        "image": ""
+    },
+    {
+        "id": "P015",
+        "name": "Pupuk Cair Organik",
+        "price": 27000,
+        "stock": 38,
+        "image": ""
+    },
+    {
+        "id": "P016",
+        "name": "Agro Katalis",
+        "price": 45000,
+        "stock": 15,
+        "image": ""
+    },
+    {
+        "id": "P017",
+        "name": "tomat",
+        "price": 50000,
+        "stock": 5,
+        "image": ""
+    }
+]
