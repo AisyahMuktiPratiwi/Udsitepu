@@ -32,7 +32,7 @@ $total        = $checkout['total'];
 
 // Timer (5 menit contoh)
 $waktu_sekarang = time();
-$batas_waktu    = $_SESSION['start_time'] + (5 * 60);
+$batas_waktu    = $_SESSION['start_time'] + (60 * 60);
 $sisa_waktu     = $batas_waktu - $waktu_sekarang;
 
 /* =========================
