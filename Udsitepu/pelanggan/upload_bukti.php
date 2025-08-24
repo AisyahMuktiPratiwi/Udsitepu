@@ -118,8 +118,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['bukti'])) {
                 // Commit transaction
                 $conn->commit();
 
-                // 4. Bersihkan session
-                unset($_SESSION['checkout'], $_SESSION['start_time'], $_SESSION['processing_order']);
+                // 4. Bersihkan session - INI YANG DIPERBAIKI
+                unset(
+                    $_SESSION['checkout'], 
+                    $_SESSION['keranjang'], 
+                    $_SESSION['start_time'], 
+                    $_SESSION['processing_order'],
+                    $_SESSION['cart_count'] // Pastikan count keranjang juga direset
+                );
 
                 echo "<div class='alert alert-success'>Bukti berhasil diupload. Pesanan tersimpan ke database dan muncul di riwayat.</div>";
                 echo "<script>setTimeout(function(){ window.location.href='riwayat.php'; }, 1500);</script>";
